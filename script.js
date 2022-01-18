@@ -1,12 +1,12 @@
-let name = document.querySelector('.name');
-let folio = name.querySelector('.folio');
+let content = document.querySelector('.content');
+let contentText = content.querySelector('.content-text');
 
-name.addEventListener('click', function () {
-    name.style.opacity = '0'
+content.addEventListener('click', function () {
+    content.style.opacity = '0'
 })
 
-document.onkeydown = function (name) {
-    if (name.keyCode == '32') {
-        folio.remove()
+document.onkeydown = function (document) {
+    if (document.keyCode == '32') {
+        content.remove()
     }
 }
