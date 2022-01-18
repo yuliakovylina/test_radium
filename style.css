@@ -1,0 +1,21 @@
+.page {
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    font-size: 4em;
+    font-family: Georgia;
+}
+.folio {
+    cursor: pointer;
+}
+
+.folio:hover {
+    transition: all 0.3s linear;
+    font-size: 80px;
+    color: darkslategrey;
+}
